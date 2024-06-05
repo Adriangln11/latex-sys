@@ -5,12 +5,12 @@ import { LuPackage } from 'react-icons/lu'
 
 export const Aside = () => {
   return (
-    <aside className='bg-gray-900 p-5 text-white'>
-      <h1 className='my-10 text-3xl text-white font-bold flex gap-3 border-b-2 border-red-500'>
+    <aside className='absolute h-full bg-royal-blue-900 p-10 text-white'>
+      <h1 className='my-10 text-4xl text-white font-bold flex gap-3 border-b-2 border-red-500 text-nowrap'>
         <i className='text-red-500'>
           <IoBalloon />
         </i>{' '}
-        Latex Mexicana
+        Latex Sepiol
       </h1>
       <div>
         <span className='text-gray-500'>Departamentos</span>
